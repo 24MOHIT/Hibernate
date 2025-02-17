@@ -27,4 +27,13 @@
             <column name="ADDRESS" />
         </property>
     </class>
+    
+    <query name="allUser">
+		<![CDATA[ from UserDTO ]]>
+	</query>
+	
+	<!--  <query name="allUser">
+		<![CDATA[ select count(*) from UserDTO ]]>
+	</query>
+     -->
 </hibernate-mapping>
